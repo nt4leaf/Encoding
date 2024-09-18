@@ -24,7 +24,7 @@ if options.index(option) == 0:
     encode_key = generatekey()
 else:
     encode_key = inputkey()
-print(encode_key)
+st.write(encode_key)
 
 
 
