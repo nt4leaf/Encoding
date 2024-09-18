@@ -23,10 +23,6 @@ option = st.selectbox("Choose an option:",
     "Add an exist Key")
 )
 st.write("You selected:", option)
-if option == "Generate a random Key":
-    encode_key = generatekey()
-else:
-    encode_key = inputkey()
 print(encode_key)
 
 
