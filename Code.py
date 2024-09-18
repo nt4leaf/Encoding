@@ -22,7 +22,7 @@ options = ("Generate a random Key", "Add an exist Key")
 option = st.selectbox("selectbox", options, 1)
 if options.index(option) == 0:
     encode_key = generatekey()
-else
+else:
     encode_key = inputkey()
 print(encode_key)
 
