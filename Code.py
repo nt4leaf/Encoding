@@ -20,8 +20,11 @@ def inputkey():
 st.caption("Written by Nguyen Tuan")
 options = ("Generate a random Key", "Add an exist Key")
 option = st.selectbox("selectbox", options, 1)
-st.write("option:", option)
-st.write("index:", options.index(option))
+if options.index(option) == 0:
+    encode_key = generatekey()
+else
+    encode_key = inputkey()
+print(encode_key)
 
 
 
